@@ -5,6 +5,7 @@ public class WeatherData {
     private double[] hourly;
     private double[] dailyhigh;
     private double[] dailylow;
+    private String icon;
 
     public double getCurrentTemp() {
         return currentTemp;
@@ -37,4 +38,8 @@ public class WeatherData {
     public void setDailylow(double[] dailylow) {
         this.dailylow = dailylow;
     }
+
+    public String geticon() { return this.icon; }
+
+    public void setIcon(String icon) {this.icon = icon;}
 }
