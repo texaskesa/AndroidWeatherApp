@@ -58,6 +58,7 @@ public class APIRequest extends AsyncTask<Location, Void, String> {
             JSONObject object = (JSONObject) new JSONTokener(result).nextValue();
             JSONObject current = object.getJSONObject("currently");
 
+            double prec = current.getDouble("precipProbability");
             double temp = current.getDouble("temperature");
             String icon = current.getString("icon");
             double[] tmps = new double[5];
@@ -75,9 +76,11 @@ public class APIRequest extends AsyncTask<Location, Void, String> {
             JSONArray dailyArr = daily.getJSONArray("data");
             double[] tempHigh = new double[7];
             double[] tempLow = new double[7];
+            String[] dailyicon = new String[7];
             for(int i = 0; i<7 ; i++) {
                 JSONObject dailyObj = dailyArr.getJSONObject(i);
                 tempHigh[i] = dailyObj.getDouble("temperatureHigh");
+                dailyicon[i] = dailyObj.getString("icon");
             }
 
             for(int i =0 ; i<7 ; i++) {
@@ -90,17 +93,18 @@ public class APIRequest extends AsyncTask<Location, Void, String> {
             weatherData.setHourly(tmps);
             weatherData.setDailyhigh(tempHigh);
             weatherData.setDailylow(tempLow);
-
+            weatherData.setPricipprobabilty(prec*100);
+            weatherData.setDailyicon(dailyicon);
         }
 
         catch(JSONException e){
             System.out.println(e);
         }
 
-        for (int i = 0 ; i < 5 ; i++) {
-            System.out.println(weatherData.getHourly()[i]);
+        for (int i = 0 ; i < 7 ; i++) {
+            System.out.println(weatherData.getDailyicon()[i]);
         }
-
+        MainActivity.update();
     }
 }
 

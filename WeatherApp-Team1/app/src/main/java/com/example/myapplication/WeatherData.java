@@ -6,6 +6,8 @@ public class WeatherData {
     private double[] dailyhigh;
     private double[] dailylow;
     private String icon;
+    private String[] dailyicon;
+    private double pricipprobabilty;
 
     public double getCurrentTemp() {
         return currentTemp;
@@ -42,4 +44,20 @@ public class WeatherData {
     public String geticon() { return this.icon; }
 
     public void setIcon(String icon) {this.icon = icon;}
+
+    public double getPricipprobabilty() {
+        return pricipprobabilty;
+    }
+
+    public void setPricipprobabilty(double pricipprobabilty) {
+        this.pricipprobabilty = pricipprobabilty;
+    }
+
+    public String[] getDailyicon() {
+        return dailyicon;
+    }
+
+    public void setDailyicon(String[] dailyicon) {
+        this.dailyicon = dailyicon;
+    }
 }

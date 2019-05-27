@@ -1,6 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/jjang_background"
+>
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="242dp"
+            tools:layout_editor_absoluteX="122dp" android:id="@+id/textView"
+            android:textSize="50dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="300dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+    />
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/mainpicture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+    />
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day0"
+            android:textSize="20dp"
+            android:layout_marginTop="1080px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day0_high"
+            android:textSize="20dp"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="1080px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day0_low"
+            android:textSize="20dp"
+            android:layout_marginLeft="540px"
+            android:layout_marginTop="1080px"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/day0_jjang"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="1070px"
+    />
+
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day1"
+            android:textSize="20dp"
+            android:layout_marginTop="1200px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day1_high"
+            android:textSize="20dp"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="1200px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day1_low"
+            android:textSize="20dp"
+            android:layout_marginLeft="540px"
+            android:layout_marginTop="1200px"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/day1_jjang"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="1200px"
+    />
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day2"
+            android:textSize="20dp"
+            android:layout_marginTop="1320px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day2_high"
+            android:textSize="20dp"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="1320px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day2_low"
+            android:textSize="20dp"
+            android:layout_marginLeft="540px"
+            android:layout_marginTop="1320px"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/day2_jjang"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="1320px"/>
+
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day3"
+            android:layout_marginTop="1440px"
+            android:textSize="20dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day3_high"
+            android:textSize="20dp"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="1440px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day3_low"
+            android:textSize="20dp"
+            android:layout_marginLeft="540px"
+            android:layout_marginTop="1440px"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/day3_jjang"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="1440px"/>
+
+
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day4"
+            android:layout_marginTop="1560px"
+            android:textSize="20dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day4_high"
+            android:textSize="20dp"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="1560px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day4_low"
+            android:textSize="20dp"
+            android:layout_marginLeft="540px"
+            android:layout_marginTop="1560px"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/day4_jjang"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="1560px"/>
+
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day5"
+            android:layout_marginTop="1680px"
+            android:textSize="20dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day5_high"
+            android:textSize="20dp"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="1680px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day5_low"
+            android:textSize="20dp"
+            android:layout_marginLeft="540px"
+            android:layout_marginTop="1680px"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/day5_jjang"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="1680px"/>
+
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day6"
+            android:layout_marginTop="1800px"
+            android:textSize="20dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day6_high"
+            android:textSize="20dp"
+            android:layout_marginLeft="270px"
+            android:layout_marginTop="1800px"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/day6_low"
+            android:textSize="20dp"
+            android:layout_marginLeft="540px"
+            android:layout_marginTop="1800px"/>
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/day6_jjang"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="1800px"
+
+    />
+</RelativeLayout>
