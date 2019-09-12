@@ -14,7 +14,6 @@ import java.util.Date;
 
 
 public class LandingPage extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

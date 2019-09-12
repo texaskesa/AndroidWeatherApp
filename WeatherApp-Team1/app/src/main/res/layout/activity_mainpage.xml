@@ -32,27 +32,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day0"
             android:textSize="20dp"
-            android:layout_marginTop="1080px"/>
+            android:layout_marginTop="1000px"
+            android:layout_marginLeft="100px"
+            android:textStyle="bold"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day0_high"
             android:textSize="20dp"
             android:layout_marginLeft="270px"
-            android:layout_marginTop="1080px"/>
+            android:layout_marginTop="1000px"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day0_low"
             android:textSize="20dp"
             android:layout_marginLeft="540px"
-            android:layout_marginTop="1080px"/>
+            android:layout_marginTop="1000px"/>
     <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:id="@+id/day0_jjang"
             android:layout_marginLeft="900px"
-            android:layout_marginTop="1070px"
+            android:layout_marginTop="1000px"
     />
 
 
@@ -61,82 +63,88 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day1"
             android:textSize="20dp"
-            android:layout_marginTop="1200px"/>
+            android:layout_marginTop="1120px"
+            android:layout_marginLeft="100px"
+            android:textStyle="bold"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day1_high"
             android:textSize="20dp"
             android:layout_marginLeft="270px"
-            android:layout_marginTop="1200px"/>
+            android:layout_marginTop="1120px"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day1_low"
             android:textSize="20dp"
             android:layout_marginLeft="540px"
-            android:layout_marginTop="1200px"/>
+            android:layout_marginTop="1120px"/>
     <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:id="@+id/day1_jjang"
             android:layout_marginLeft="900px"
-            android:layout_marginTop="1200px"
+            android:layout_marginTop="1120px"
     />
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day2"
             android:textSize="20dp"
-            android:layout_marginTop="1320px"/>
+            android:layout_marginTop="1240px"
+            android:layout_marginLeft="100px"
+            android:textStyle="bold"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day2_high"
             android:textSize="20dp"
             android:layout_marginLeft="270px"
-            android:layout_marginTop="1320px"/>
+            android:layout_marginTop="1240px"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day2_low"
             android:textSize="20dp"
             android:layout_marginLeft="540px"
-            android:layout_marginTop="1320px"/>
+            android:layout_marginTop="1240px"/>
     <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:id="@+id/day2_jjang"
             android:layout_marginLeft="900px"
-            android:layout_marginTop="1320px"/>
+            android:layout_marginTop="1240px"/>
 
 
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day3"
-            android:layout_marginTop="1440px"
-            android:textSize="20dp"/>
+            android:layout_marginTop="1360px"
+            android:textSize="20dp"
+            android:layout_marginLeft="100px"
+            android:textStyle="bold"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day3_high"
             android:textSize="20dp"
             android:layout_marginLeft="270px"
-            android:layout_marginTop="1440px"/>
+            android:layout_marginTop="1360px"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day3_low"
             android:textSize="20dp"
             android:layout_marginLeft="540px"
-            android:layout_marginTop="1440px"/>
+            android:layout_marginTop="1360px"/>
     <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:id="@+id/day3_jjang"
             android:layout_marginLeft="900px"
-            android:layout_marginTop="1440px"/>
+            android:layout_marginTop="1360px"/>
 
 
 
@@ -144,84 +152,90 @@
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day4"
-            android:layout_marginTop="1560px"
-            android:textSize="20dp"/>
+            android:layout_marginTop="1480px"
+            android:textSize="20dp"
+            android:layout_marginLeft="100px"
+            android:textStyle="bold"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day4_high"
             android:textSize="20dp"
             android:layout_marginLeft="270px"
-            android:layout_marginTop="1560px"/>
+            android:layout_marginTop="1480px"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day4_low"
             android:textSize="20dp"
             android:layout_marginLeft="540px"
-            android:layout_marginTop="1560px"/>
+            android:layout_marginTop="1480px"/>
     <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:id="@+id/day4_jjang"
             android:layout_marginLeft="900px"
-            android:layout_marginTop="1560px"/>
+            android:layout_marginTop="1480px"/>
 
 
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day5"
-            android:layout_marginTop="1680px"
-            android:textSize="20dp"/>
+            android:layout_marginTop="1600px"
+            android:textSize="20dp"
+            android:layout_marginLeft="100px"
+            android:textStyle="bold"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day5_high"
             android:textSize="20dp"
             android:layout_marginLeft="270px"
-            android:layout_marginTop="1680px"/>
+            android:layout_marginTop="1600px"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day5_low"
             android:textSize="20dp"
             android:layout_marginLeft="540px"
-            android:layout_marginTop="1680px"/>
+            android:layout_marginTop="1600px"/>
     <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:id="@+id/day5_jjang"
             android:layout_marginLeft="900px"
-            android:layout_marginTop="1680px"/>
+            android:layout_marginTop="1600px"/>
 
 
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day6"
-            android:layout_marginTop="1800px"
-            android:textSize="20dp"/>
+            android:layout_marginTop="1720px"
+            android:textSize="20dp"
+            android:layout_marginLeft="100px"
+            android:textStyle="bold"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day6_high"
             android:textSize="20dp"
             android:layout_marginLeft="270px"
-            android:layout_marginTop="1800px"/>
+            android:layout_marginTop="1720px"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/day6_low"
             android:textSize="20dp"
             android:layout_marginLeft="540px"
-            android:layout_marginTop="1800px"/>
+            android:layout_marginTop="1720px"/>
     <ImageView
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:id="@+id/day6_jjang"
             android:layout_marginLeft="900px"
-            android:layout_marginTop="1800px"
+            android:layout_marginTop="1720px"
 
     />
 </RelativeLayout>

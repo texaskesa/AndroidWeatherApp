@@ -3,8 +3,8 @@ package com.example.myapplication;
 public class WeatherData {
     private double currentTemp;
     private double[] hourly;
-    private double[] dailyhigh;
-    private double[] dailylow;
+    private int[] dailyhigh;
+    private int[] dailylow;
     private String icon;
     private String[] dailyicon;
     private double pricipprobabilty;
@@ -25,19 +25,19 @@ public class WeatherData {
         this.hourly = hourly;
     }
 
-    public double[] getDailyhigh() {
+    public int[] getDailyhigh() {
         return dailyhigh;
     }
 
-    public void setDailyhigh(double[] dailyhigh) {
+    public void setDailyhigh(int[] dailyhigh) {
         this.dailyhigh = dailyhigh;
     }
 
-    public double[] getDailylow() {
+    public int[] getDailylow() {
         return dailylow;
     }
 
-    public void setDailylow(double[] dailylow) {
+    public void setDailylow(int[] dailylow) {
         this.dailylow = dailylow;
     }
 

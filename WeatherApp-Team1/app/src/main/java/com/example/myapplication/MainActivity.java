@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static void update() {
-        String[] days = { "SUNDAY", "MONDAY", "TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"};
-        double temp = Math.round(weatherData.getCurrentTemp());
+        String[] days = { "SUN", "MON", "TUE","WED","THU","FRI","SAT"};
+        int temp = (int) Math.round(weatherData.getCurrentTemp());
         String temps = temp + "°F";
         currenttemp.setText(temps);
         if(temp>95.0){
@@ -115,8 +115,8 @@ public class MainActivity extends AppCompatActivity {
         weekday = weekday-1;
         int j =0;
         int length = days.length;
-        double[] dailyhigh = weatherData.getDailyhigh();
-        double[] dailylow = weatherData.getDailylow();
+        int[] dailyhigh = weatherData.getDailyhigh();
+        int[] dailylow = weatherData.getDailylow();
         String[] dailyicon = weatherData.getDailyicon();
 
 
@@ -124,8 +124,8 @@ public class MainActivity extends AppCompatActivity {
             switch(j){
                 case 0:
                     day0.setText(days[i]);
-                    day0high.setText(Double.toString(dailyhigh[i])+ "°F");
-                    day0low.setText(Double.toString(dailylow[i])+ "°F");
+                    day0high.setText(dailyhigh[i]+ "°F");
+                    day0low.setText(dailylow[i]+ "°F");
                     if(dailyicon[i].contains("clear")){
                         day0jjang.setImageResource(R.drawable.jjang_clear);
                     }else if(dailyicon[i].equals("rain")){
@@ -139,8 +139,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 1:
                     day1.setText(days[i]);
-                    day1high.setText(Double.toString(dailyhigh[i])+ "°F");
-                    day1low.setText(Double.toString(dailylow[i])+ "°F");
+                    day1high.setText(dailyhigh[i]+ "°F");
+                    day1low.setText(dailylow[i]+ "°F");
                     if(dailyicon[i].contains("clear")){
                         day1jjang.setImageResource(R.drawable.jjang_clear);
                     }else if(dailyicon[i].equals("rain")){
@@ -154,8 +154,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 2:
                     day2.setText(days[i]);
-                    day2high.setText(Double.toString(dailyhigh[i])+ "°F");
-                    day2low.setText(Double.toString(dailylow[i])+ "°F");
+                    day2high.setText(dailyhigh[i]+ "°F");
+                    day2low.setText(dailylow[i]+ "°F");
                     if(dailyicon[i].contains("clear")){
                         day2jjang.setImageResource(R.drawable.jjang_clear);
                     }else if(dailyicon[i].equals("rain")){
@@ -169,8 +169,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 3:
                     day3.setText(days[i]);
-                    day3high.setText(Double.toString(dailyhigh[i])+ "°F");
-                    day3low.setText(Double.toString(dailylow[i])+ "°F");
+                    day3high.setText(dailyhigh[i]+ "°F");
+                    day3low.setText(dailylow[i]+ "°F");
                     if(dailyicon[i].contains("clear")){
                         day3jjang.setImageResource(R.drawable.jjang_clear);
                     }else if(dailyicon[i].equals("rain")){
@@ -184,8 +184,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 4:
                     day4.setText(days[i]);
-                    day4high.setText(Double.toString(dailyhigh[i])+ "°F");
-                    day4low.setText(Double.toString(dailylow[i])+ "°F");
+                    day4high.setText(dailyhigh[i]+ "°F");
+                    day4low.setText(dailylow[i]+ "°F");
                     if(dailyicon[i].contains("clear")){
                         day4jjang.setImageResource(R.drawable.jjang_clear);
                     }else if(dailyicon[i].equals("rain")){
@@ -199,8 +199,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 5:
                     day5.setText(days[i]);
-                    day5high.setText(Double.toString(dailyhigh[i])+ "°F");
-                    day5low.setText(Double.toString(dailylow[i])+ "°F");
+                    day5high.setText(dailyhigh[i]+ "°F");
+                    day5low.setText(dailylow[i]+ "°F");
                     if(dailyicon[i].contains("clear")){
                         day5jjang.setImageResource(R.drawable.jjang_clear);
                     }else if(dailyicon[i].equals("rain")){
@@ -214,8 +214,8 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 6:
                     day6.setText(days[i]);
-                    day6high.setText(Double.toString(dailyhigh[i])+ "°F");
-                    day6low.setText(Double.toString(dailylow[i])+ "°F");
+                    day6high.setText(dailyhigh[i]+ "°F");
+                    day6low.setText(dailylow[i]+ "°F");
                     if(dailyicon[i].contains("clear")){
                         day6jjang.setImageResource(R.drawable.jjang_clear);
                     }else if(dailyicon[i].equals("rain")){

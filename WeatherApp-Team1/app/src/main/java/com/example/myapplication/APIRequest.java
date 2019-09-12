@@ -74,18 +74,18 @@ public class APIRequest extends AsyncTask<Location, Void, String> {
 
             JSONObject daily = object.getJSONObject("daily");
             JSONArray dailyArr = daily.getJSONArray("data");
-            double[] tempHigh = new double[7];
-            double[] tempLow = new double[7];
+            int[] tempHigh = new int[7];
+            int[] tempLow = new int[7];
             String[] dailyicon = new String[7];
             for(int i = 0; i<7 ; i++) {
                 JSONObject dailyObj = dailyArr.getJSONObject(i);
-                tempHigh[i] = dailyObj.getDouble("temperatureHigh");
+                tempHigh[i] = dailyObj.getInt("temperatureHigh");
                 dailyicon[i] = dailyObj.getString("icon");
             }
 
             for(int i =0 ; i<7 ; i++) {
                 JSONObject dailyObj = dailyArr.getJSONObject(i);
-                tempLow[i] = dailyObj.getDouble("temperatureLow");
+                tempLow[i] = dailyObj.getInt("temperatureLow");
             }
 
             weatherData.setCurrentTemp(temp);
