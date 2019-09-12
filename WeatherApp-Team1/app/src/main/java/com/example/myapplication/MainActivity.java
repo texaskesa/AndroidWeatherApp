@@ -246,6 +246,10 @@ public class MainActivity extends AppCompatActivity {
         {
             ActivityCompat.requestPermissions(this, permisson, 1);
         }
+        int result = ContextCompat.checkSelfPermission(this, permisson[0]);
+        while(result != PackageManager.PERMISSION_GRANTED) {
+            result = ContextCompat.checkSelfPermission(this, permisson[0]);
+        }
         LocationManager lm = (LocationManager) getSystemService(LOCATION_SERVICE);
         ManageLocation ml = new ManageLocation();
         ml.getLocation(lm);
